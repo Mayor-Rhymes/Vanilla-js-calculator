@@ -1,0 +1,84 @@
+*
+{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.wrapper
+{
+
+
+    width: 30vh;
+    height: 42vh;
+    border: 0.5px solid lightgrey;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    background-color: rgba(211, 211, 211, 0.1);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 20px;
+    box-shadow: 1px 3px 4px 2px lightgrey;
+
+
+}
+
+#screen
+{
+
+
+    width: 100%;
+    height: 20%;
+    resize: none;
+    border: none;
+    text-align: right;
+    padding: 10px;
+    font-size: 25px;
+    overflow: hidden;
+    
+
+}
+.buttons
+{
+
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 40px;
+    column-gap: 4px;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    padding: 3px;
+    margin-top: 0;
+    row-gap: 4px;
+
+
+
+
+}
+
+p{
+
+
+    text-align: center;
+    align-items: center;
+    background-color: whitesmoke;
+    display: inline-grid;
+    cursor: pointer;
+
+
+}
+
+p:hover
+{
+
+
+    background-color: lightgrey;
+
+}
